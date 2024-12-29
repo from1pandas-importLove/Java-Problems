@@ -1,0 +1,12 @@
+# Ignore all Theory folders
+Theory/
+**/Theory/
+
+# Ignore all HTML files
+*.html
+
+# Example: Ignore Gradle build directory
+build/
+
+# Example: Ignore IntelliJ IDEA project settings
+.idea/
