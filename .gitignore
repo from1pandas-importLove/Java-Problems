@@ -2,26 +2,33 @@
 Theory/
 **/Theory/
 
+# Ignore Gradle folders and files
 .gradle/
 **/.gradle/
-
-
-.DS_Store
 build.gradle
-course-info.yaml
-course-remote-info.yaml
-gradlew
-gradlew.bat
 settings.gradle
-
-# Ignore all HTML files
-*.html
-*.yaml
-*.bat
 *.gradle
 
-# Example: Ignore Gradle build directory
+# Ignore macOS system files
+.DS_Store
+
+# Ignore course configuration files
+course-info.yaml
+course-remote-info.yaml
+*.yaml
+
+# Ignore Gradle wrapper files
+gradlew
+gradlew.bat
+*.bat
+
+# Ignore IntelliJ IDEA settings
+.idea/
+
+# Ignore build directories
 build/
 
-# Example: Ignore IntelliJ IDEA project settings
-.idea/
+# Ignore Gradle wrapper folder and files
+gradle/wrapper/
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
