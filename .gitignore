@@ -2,8 +2,23 @@
 Theory/
 **/Theory/
 
+gradle/
+**/gradle/
+
+
+.DS_Store
+build.gradle
+course-info.yaml
+course-remote-info.yaml
+gradlew
+gradlew.bat
+settings.gradle
+
 # Ignore all HTML files
 *.html
+*.yaml
+*.bat
+*.gradle
 
 # Example: Ignore Gradle build directory
 build/
