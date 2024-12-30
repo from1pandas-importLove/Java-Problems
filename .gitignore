@@ -15,7 +15,6 @@ settings.gradle
 # Ignore course configuration files
 course-info.yaml
 course-remote-info.yaml
-*.yaml
 
 # Ignore Gradle wrapper files
 gradlew
@@ -27,6 +26,12 @@ gradlew.bat
 
 # Ignore build directories
 build/
+
+# Ignore all HTML files
+*.html
+
+# Ignore all YAML files
+*.yaml
 
 # Ignore Gradle wrapper folder and files
 gradle/wrapper/
