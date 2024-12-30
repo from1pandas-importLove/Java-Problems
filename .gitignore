@@ -2,8 +2,8 @@
 Theory/
 **/Theory/
 
-gradle/
-**/gradle/
+.gradle/
+**/.gradle/
 
 
 .DS_Store
