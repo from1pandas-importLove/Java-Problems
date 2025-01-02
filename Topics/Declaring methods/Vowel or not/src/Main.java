@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class Main {
@@ -17,4 +15,3 @@ public class Main {
         System.out.println(isVowel(letter) ? "YES" : "NO");
     }
 }
-
